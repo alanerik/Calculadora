@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+.main{
+    background-color: rgb(80, 73, 73);
+    color: rgb(252, 252, 252);
+    height: auto;
+    width:350px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align:center;
+    margin: auto;
+}
+
+.btn{
+    height: auto;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.display{
+    background-color: rgb(110, 117, 103);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:darkgray;
+    font-family: 'Archivo', sans-serif;
+}
+
+.unused{
+    background-color: transparent;
+}
+
+.red{
+    background-color: rgb(230, 24, 24);
+}
+
+.red:hover{
+    background-color: red;
+    color: white;
+}

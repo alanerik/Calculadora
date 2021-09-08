@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+<div class="container mt-5">
+<div class="row">
+    <div class="col-md-12">
+        <form action="#" name="calculator" class="main shadow-lg">
+            <div class="brand p-2">CASIO</div>
+<input type="text" class="display form-control" name="display" id="display"><br>
+
+<input type="button" class="btn red" value="C" id="clear">
+<input type="button" class="btn  ms-3" value="->"onclick="backSpace()">
+<input type="button" class="btn  ms-3" value="%" onclick="document.calculator.display.value+='%'">
+<input type="button" class="btn  ms-3" value="/"onclick="document.calculator.display.value+='/'"><br><br>
+<input type="button" class="btn  " value="7" onclick="seven()">
+<input type="button" class="btn ms-3" value="8"onclick="eight()">
+<input type="button" class="btn ms-3" value="9"onclick="nine()">
+<input type="button" class="btn ms-3" value="*"onclick="document.calculator.display.value+='*'"><br><br>
+<input type="button" class="btn " value="6"onclick="six()">
+<input type="button" class="btn y ms-3" value="5"onclick="five()">
+<input type="button" class="btn ms-3" value="4"onclick="four()">
+<input type="button" class="btn ms-3" value="-"onclick="document.calculator.display.value+='-'"><br><br>
+<input type="button" class="btn  " value="3"onclick="three()">
+<input type="button" class="btn  ms-3" value="2"onclick="two()">
+<input type="button" class="btn  ms-3" value="1"onclick="one()">
+<input type="button" class="btn  ms-3" value="+"onclick="document.calculator.display.value+='+'"><br><br>
+<input type="button" class="btn  " value="0"onclick="zero()">
+<input type="button" class="btn  ms-3 " value="("onclick="document.calculator.display.value+='('">
+<input type="button" class="btn  ms-3 " value=")"onclick="document.calculator.display.value+=')'">
+<input type="button" class="btn  ms-3 " value="."onclick="point()"><br><br>
+<div class="col-md-12 d-flex">
+    <div class="type">CALCULATOR model 11201
+    <input type="button" class="btn ms-4" value="="onclick="document.calculator.display.value =eval(calculator.display.value)">
+</div>
+</div>
+
+        </form>
+    </div>
+</div>
+
+</div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
